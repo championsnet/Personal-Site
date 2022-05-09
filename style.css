@@ -98,17 +98,12 @@ img {
     margin: 0;
     padding: 0;
     list-style: none;
-    animation-name: wordSlider;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
 }
     
 .ms-slider__word {
     display: block;
     line-height: 1.5em;
     text-align: center;
-    animation: glitch 1.5s linear infinite;
 }
 
 @keyframes wordSlider {
@@ -138,11 +133,8 @@ header a {
 }
 
 header a:hover {
-    background-color: rgb(133 49 0 / 70%);
-    padding-bottom: 3px;
-    padding-right: 3px;
-    transition: background-color 0.5s;
-    -webkit-transition: background-color 0.5s;
+    transition: filter 0.25s;
+    -webkit-transition: filter 0.25s;
     filter: drop-shadow(0px 0px 5px #EF4838);
     
 }

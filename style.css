@@ -35,6 +35,13 @@ header {
     justify-content: space-evenly;
 }
 
+.header-bg {
+    position: absolute;
+    margin-top: 70px;
+    z-index: -10;
+    opacity: 0.1;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -67,7 +74,7 @@ img {
     text-shadow: -2px -2px 4px #F04F38;
 }
 
-.sub-container ul {
+.sub-container {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -106,27 +113,6 @@ img {
     text-align: center;
 }
 
-@keyframes wordSlider {
-    0%, 15%{
-        transform: translateY(0);
-    }
-    20%, 35% {
-        transform: translateY(-1.5em);
-    }
-    40%, 55% {
-        transform: translateY(-3em);
-    }
-    60%, 75% {
-        transform: translateY(-4.5em);
-    }
-    80%, 95% {
-        transform: translateY(-6em);
-    }
-    100% {
-        transform: translateY(-7.5em);
-    }
-}
-
 header a {
     display: block;
     border-radius: 50%;
@@ -163,15 +149,13 @@ header a:hover {
     margin-top: 95vh;
     display: inline-block;
     color: black;
-    text-shadow: -1px -1px 5px #EF4838;
+    text-shadow: -1px -1px 5px #ef483833;
     padding-bottom: 50px;
 }
 
 h2 {
-    font-weight: 600;
     font-size: 32px;
     margin: 0;
-    text-align: center;
 }
 
 .section-container {
@@ -179,8 +163,16 @@ h2 {
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    max-width: 855px;
+    max-width: min(1000px, 90%);
     margin: auto;
+}
+
+.left-section {
+    text-align: left;
+}
+
+.right-section {
+    text-align: right;
 }
 
 .section-title {
@@ -201,7 +193,7 @@ h2 {
 
 .section-divider {
     width: max(300px, 50%);
-    max-width: 855px;
+    max-width: min(1000px, 90%);
     margin: auto;
     margin-top: 100px;
 }
@@ -251,8 +243,9 @@ hr.rounded {
         font-size: min(36px, 7vw);
     } 
 
-    .sub-container ul {
+    .sub-container {
         font-weight: 300;
+        font-size: 18px;
     }
 
     .section-img img {

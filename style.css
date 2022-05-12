@@ -158,6 +158,10 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    font-weight: 600;
+}
+
 .section-container {
     display: flex;
     justify-content: center;
@@ -165,6 +169,12 @@ h2 {
     flex-wrap: nowrap;
     max-width: min(1000px, 90%);
     margin: auto;
+}
+
+.section-container:hover {
+    filter: drop-shadow(2px 4px 50px orange);
+    transition: filter 0.75s;
+    -webkit-transition: filter 0.75s;
 }
 
 .left-section {
@@ -254,5 +264,9 @@ hr.rounded {
 
     h2 {
         font-size: min(30px, 5vw);
+    }
+
+    h3 {
+        font-size: min(24px, 3vw);
     }
 }

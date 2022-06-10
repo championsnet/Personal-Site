@@ -82,7 +82,6 @@ img {
     line-height: 39px;
     color: #D5D5D5;
     text-shadow: -2px -2px 4px #EF4838;
-    white-space: nowrap;
 }
 
 .ms-slider {
@@ -167,7 +166,7 @@ h3 {
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    max-width: min(1000px, 90%);
+    max-width: min(1000px, 85%);
     margin: auto;
 }
 

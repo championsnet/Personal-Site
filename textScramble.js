@@ -62,11 +62,11 @@ class TextScramble {
   // ——————————————————————————————————————————————————
   
   const phrases = [
-    'Software Engineering',
-    'Electrical & Computer Engineering',
-    'Web Development',
-    'Digital Solutions',
-    'Game Development'
+    'AI Engineer',
+    'Infrastucture Engineer',
+    'Full-stack Visionary',
+    'From Theory to Practice',
+    'From Research to Production',
   ];
   
   const el = document.querySelector('.scramble');

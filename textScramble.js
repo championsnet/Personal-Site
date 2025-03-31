@@ -63,7 +63,7 @@ class TextScramble {
   
   const phrases = [
     'AI Engineer',
-    'Infrastucture Engineer',
+    'Infrastructure Engineer',
     'Full-stack Visionary',
     'From Theory to Practice',
     'From Research to Production',

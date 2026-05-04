@@ -1,3 +1,4 @@
 [submodule "portfolio-game"]
 	path = portfolio-game
 	url = https://github.com/championsnet/portfolio3d.git
+	branch = restructure
